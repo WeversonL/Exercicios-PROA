@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    font-weight: bold;
+    background-color: #649E9A;
+}
+
+section{
+    width: 70%;
+    margin: auto;
+    padding: 10px;
+    background-color: #65C2BC;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.3);
+}
+
+label, input{
+    margin-bottom: 10px;
+}
+
+
+input.botao{
+    background-color: rgb(22, 177, 91);
+    border: 0;
+    border-radius: 10px;
+    width: 120px;
+    height: 30px;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+}
+
+#botoes{
+    text-align: center;
+}
+
+.box{
+    background-color: #c3e6e3;
+    border: 0;
+    border-radius: 5px;
+    padding: 4px;
+    width: 230px;
+    margin-right: 5px;
+}
+
+.box-bot{
+    background-color: #c3e6e3;
+    border: 0;
+    border-radius: 5px;
+    padding: 4px;
+    width: 250px;
+    margin-right: 50px;
+}
+
+legend{
+    color: rgb(15, 136, 70);
+    font-weight: bold;
+}
+
+fieldset{
+    margin-bottom: 30px;
+}
+
+
+
