@@ -1,0 +1,163 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    max-width: 1280px;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #eee;
+}
+
+h1{
+    font-size: 3rem;
+}
+
+button{
+    width: 130px;
+    height: 35px;
+    background-color: #5f9ea0;
+    border: 0;
+    border-radius: 15px;
+    text-align: center;
+    color: #ffffff;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #045153;
+    transition: 0.3s ease;
+}
+
+a{
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.flex{
+    display: flex;
+}
+
+.padding{
+    padding: 2rem 8.3%;
+}
+
+/* Topo */
+
+#social-topo{
+    width: 100%;
+}
+
+#social-topo ul{
+    list-style: none;
+    justify-content: flex-end;
+}
+
+#social-topo li{
+    margin: 5px;
+}
+
+#social-topo img{
+    height: 32px;
+}
+
+#container{
+    max-width: 70%;
+    margin: auto;
+}
+
+/* Cabeçalho */
+
+header{
+    background-color: #ffa500;
+    border-radius: 10px 10px 0 0;
+}
+
+header article:first-child img{
+    width: 300px;
+    height: 300px;
+    border: 8px solid #cecece;
+    box-shadow: 10px 10px 10px hsla(0, 0%, 0%, 0.3);
+}
+
+header article:last-child h1{
+    color: #ffffff;
+    margin-left: 4rem;
+    margin-top: 5rem;
+    margin-bottom: 1.5rem;
+}
+
+header article:last-child #first{
+    margin-left: 8.1rem;
+}
+
+/* Sobre */
+
+#context{
+    background-color: #fff;
+    text-align: justify;
+}
+
+#context p{
+    line-height: 1.5rem;
+}
+
+#context h3{
+    font-weight: bolder;
+}
+
+#context h3{
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+#context h2{
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+#context #details{
+    margin-top: 2rem;
+}
+
+aside{
+    margin-top: 2rem;
+}
+
+aside #tit{
+    margin-bottom: 2rem;
+}
+
+aside ul {
+    border-radius: 5px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    background: rgb(204, 204, 204);
+    text-align: center;
+}
+
+aside ul li {
+    padding: 1% 0;
+    margin: 0 2%;
+    width: 25%;
+    text-align: center;
+}
+
+aside ul li a {
+    color: #000000;
+}
+
+
+/* Footer */
+
+footer{
+    background: rgb(204, 204, 204);
+    text-align: center;
+    border-radius: 0 0 10px 10px;
+}
