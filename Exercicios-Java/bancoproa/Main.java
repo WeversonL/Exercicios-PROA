@@ -14,6 +14,8 @@ public class Main {
 
         int tent = 1;
 
+        clean.cls();
+
         while (tent < 4){
 
             System.out.println("Informe seu nome de usuário: ");
