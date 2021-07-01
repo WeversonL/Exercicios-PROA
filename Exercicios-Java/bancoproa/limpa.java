@@ -1,12 +1,11 @@
-package banco;
-import banco.*;
+package bancoproa;
 public class limpa {
 
     public void cls()
     {
         try
         {	
-            new ProcessBuilder("powershell","clear").inheritIO().start().waitFor();
+            new ProcessBuilder("clear").inheritIO().start().waitFor();
         }catch(Exception E){
             System.out.println(E);
         }
