@@ -55,7 +55,7 @@ public class func{
 
     public void calculaRendimento(double juros, int meses){
 
-        double rendimento = saldo * (1 + juros) / meses;
+        double rendimento = saldo * (1 + juros/100) * meses;
 
         System.out.println("\nSeu rendimento em " +meses+ " meses, aplicando "+juros+"% de juros, foi de: R$"+dc.format(rendimento));
 
